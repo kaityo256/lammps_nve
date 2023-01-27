@@ -10,11 +10,11 @@ make
 
 ## 結果
 
-NVE(エネルギー一定)
-![NVE](fig/nve.png)
+* NVE(エネルギー一定)
+    * ![NVE](fig/nve.png)
 
-NVT(温度一定)
-![NVT](fig/nvt.png)
+* NVT(温度一定)
+    * ![NVT](fig/nvt.png)
 
 ## ライセンス
 
