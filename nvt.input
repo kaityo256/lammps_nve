@@ -14,7 +14,7 @@ velocity	all create 1.0 1 loop geom
 pair_style	lj/cut 2.5
 pair_coeff	1 1 1.0 1.0 2.5
 
-fix	1 all nvt temp 1.0 1.0 0.1
+fix	1 all nvt temp 1.0 1.0 0.05
 
 thermo		10
 run		500

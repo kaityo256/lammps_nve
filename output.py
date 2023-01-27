@@ -14,6 +14,7 @@ def read_file(basename):
         break
       a = line.split()
       fdat.write(f"{a[0]} {a[1]} {a[4]}\n")
+    print(f"Generated {datfile}")
 
 
 read_file("nve")

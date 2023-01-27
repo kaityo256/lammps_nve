@@ -1,15 +1,9 @@
-all: nve.dat nvt.out
 LAMMPS=/home/apps/lammps/lmp_serial
 
-
-nve.dat: nve.out
-nvt.dat: nvt.out
-
-nve.out:
-	lmp_serial < nve.input > nve.out 
-
-nvt.out:
-	lmp_serial < nvt.input > nvt.out 
+all:
+	$(LAMMPS) < nve.input > nve.out 
+	$(LAMMPS) < nvt.input > nvt.out 
+	python3 output.py
 
 .PHONY: clean
 
