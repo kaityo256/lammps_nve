@@ -1,0 +1,4 @@
+log.lammps
+*.dat
+*.out
+*.pdf
